@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Analytics Student Survey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <form>
@@ -17,14 +18,10 @@
                 autofocus
             />
         </p>
-        <p>My home town is</p>
+        <p>My home town is </p>
         <p>
-            <input
-                type="text"
-                name="home_town"
-                placeholder="Town"
-                required
-            />
+            <input type="text" name="home_town" placeholder="Town" required> <i class="fa-solid fa-circle-question" title="What town did you live in before coming to college?"></i>
+
         </p>
         <p>My home state is</p>
         <select name="state" id="state-select">
@@ -97,9 +94,9 @@
             <option value="1 (Very Negative)">1 (Very Negative)</option>
         </select>
         <p>
-        <button onclick="window.location.href='cbrinkcs_p2.html';">
-            Next
-        </button>
+            <a href="cbrinkcs_p2.html">
+            <button type="button">Next</button>
+            </a>
         </p>
 </body>
 </html>
