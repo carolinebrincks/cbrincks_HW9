@@ -10,19 +10,20 @@
     <form>
         <h1>Business Analytics Student Survey</h1>
         <p>My home country is</p>
-        <p>
+        <label for="home_country">
             <input
                 type="text"
+                id="home_country"
                 name="home_country"
                 placeholder="Country"
                 autofocus
             />
-        </p>
+        </label>
         <p>My home town is </p>
-        <p>
-            <input type="text" name="home_town" placeholder="Town" required> <i class="fa-solid fa-circle-question" title="What town did you live in before coming to college?"></i>
+        <label for="home_town">
+            <input type="text" id="home_town" name="home_town" placeholder="Town" required> <i class="fa-solid fa-circle-question" title="What town did you live in before coming to college?"></i>
 
-        </p>
+        </label>
         <p>My home state is</p>
         <select name="state" id="state-select">
             <option value="">-- choose state/territory --</option>
